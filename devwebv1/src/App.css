@@ -1,0 +1,71 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1707343843598-39755549ac9a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+.container > form {
+    width: 70%;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 15px; 
+    background: #fff;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 15px; 
+     border: 1px solid #ccc;
+}
+
+pre {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+}
+
+button {
+    background: #05b462;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+p {
+    color: rgb(255, 0, 0);
+    margin: 5px 0;
+}
+
+.text {
+    margin: 2px;
+    padding: 5px;
+}
+
+span {
+    color: rgb(0, 95, 236);
+    cursor: pointer;
+}
