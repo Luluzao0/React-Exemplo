@@ -78,6 +78,7 @@ class Home extends Component {
               text="Load more posts"
               onClick={this.laodMorePosts}
               disabled={noMorePosts}
+              /* ajustando botão */
             />
           )}
         </div>
