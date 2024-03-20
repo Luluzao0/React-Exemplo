@@ -6,8 +6,10 @@ import Home from './templates/Home';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
+    <Home numberToIncrement={2} /> 
   </React.StrictMode>
 );
+//setando o numberToIncrement
+
 
 
